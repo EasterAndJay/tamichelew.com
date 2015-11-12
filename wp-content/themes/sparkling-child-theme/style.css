@@ -1,0 +1,190 @@
+/*
+Theme Name:     sparkling-child-theme
+Description:    
+Author:         jdogg5566
+Template:       sparkling
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+@import url(../sparkling/style.css);
+
+html, body{
+	height: 100%;
+}
+
+body {
+	/*background-color: #BBEAFA;*/
+	background: url(../../img/texture2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.jumbotron {
+	background-image: url(../../img/orangeIV.jpg);
+	background-position: center top;
+	background-size: cover;
+	min-height: 300px;
+	border-radius:5px;
+	-webkit-box-shadow: 3px 3px 5px 6px #800000;
+	-moz-box-shadow: 3px 3px 5px 6px #800000;
+	box-shadow: 3px 3px 5px 6px #800000;
+}
+
+/* Content under jumbotron and top navigation*/
+.main-content-area>.row {
+	color: black;
+	/*background-color: rgba(255,255,255,0.7);
+	border-radius:20px;
+	border: 1px solid #dadada;*/
+}
+
+/* Container of all content*/
+#content {
+	padding-bottom: 100px;
+}
+
+#page{
+    min-height: 100%;
+    position:relative;
+}
+
+.navbar-header {
+
+}
+.navbar.navbar-default {
+	background-color: transparent;
+	width: 100%;
+	height: 20%;
+	line-height: 3; /* Controls space between main header text and smaller text */
+	font-family: Abril Fatface;
+	color: #800000;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #800000;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color:white
+}
+
+.navbar-default .navbar-nav > .active > a {
+	color: #DA4453;
+}
+
+.dropdown-menu>.active>a {
+
+}
+
+.navbar-default .navbar-brand {
+	min-width: 300px;
+	color: #800000;
+}
+
+#logo {
+	display: block;
+}
+
+.navbar-brand {
+	height: 40px;
+}
+
+.navbar-collapse.collapse {
+	/*background:white;*/
+}
+
+.navbar-nav>li:hover {
+	background: #DA4453;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+
+#sidebar-left {
+}
+
+/** Displays links on left sidebar one per line **/
+
+.menu-item{
+	font-size: 1em;
+}
+.nav>li>a {
+	padding: 5px 15px;
+}
+
+.well, .post-inner-content /* sidebar-right */{
+	background-color: rgba(255,255,255,0.7);
+	border-radius:20px;
+	border: 1px solid #dadada;
+	-webkit-box-shadow: 3px 3px 3px 3px #800000;
+	-moz-box-shadow: 3px 3px 3px 3px #800000;
+	box-shadow: 3px 3px 3px 3px #800000;
+	
+}
+
+.col-md-offset-9 {
+	margin-left: 20%
+}
+
+.textwidget {
+	/*color: #6B6B6B;*/
+	color: #800000;
+}
+
+/* Trying to change the main content */
+.post-inner-content {
+	color: #800000;
+}
+
+#footer-area {
+	height: 100px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    /*background-color: #FF916B!important;
+    opacity:0.8;*/
+    background-color: transparent;
+    border: none;
+}
+
+#colophon {
+	/*background-color: #FF916B!important;
+	opacity:0.8;*/
+	background-color: transparent;
+	border: none;
+}
+
+.copyright {
+	color: black;
+	font-size: 1.25em;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding-left: none;
+	text-align: left;
+	border-radius: 20px;
+
+}
+
+img {
+	border-radius: 20px;
+}
+
+#menu-header-menu{
+	font-size: 3em;
+}
+
+.entry-title, h2 {
+	color: #800000;
+}
+
+#secondary .widget a{
+	color:#DA4453;
+}
+
+#secondary .widget a:hover{
+	color: #800000;
+}
+
+
+

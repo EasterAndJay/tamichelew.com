@@ -1,0 +1,62 @@
+/* -- Mods for Custom Google Fonts -- */
+
+@import url(http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic|Merriweather:400,700);
+
+body {
+	font-family: 'Noticia Text',arial,helvetica,sans-serif;
+	line-height:1.6em;
+	font-size:16px;
+	}
+
+h1,h2,h3,h4,h5,h6,h7,
+#sitetitle .title {
+	font-family:'Merriweather','Noticia Text',georgia,serif;
+	font-weight:normal;
+	}
+
+#sitetitle .title {
+	font-size:30px;
+	}
+
+#sitetitle .description {
+	font-size:16px;
+	font-weight:normal;
+	}
+
+#contentright,
+#sidebar-narrow,
+#footer-widgets,
+#footer,
+.meta,
+p#breadcrumbs,
+#topnav,
+#catnav,
+#alt-home-bottom,
+.commentlist,
+.navigation,
+ul#filter,
+#commentform label {
+	font-size:14px;
+	line-height:1.5em;
+	}
+
+#commentform input#submit,
+.archive-tabs a,
+.archive-tabs a:link,
+.archive-tabs a:visited,
+p.email-form .subbutton,
+#searchform #submitbutton,
+p.email-form .sub,
+#searchform #searchfield {
+	font-size:14px;
+	}
+
+#commentform input#submit {
+	font-size:16px;
+	}
+
+.widget.sidetabs ul.tabs li a, 
+.widget.sidetabs ul.tabs li a:link, 
+.widget.sidetabs ul.tabs li a:visited {
+	font-size:13px;
+	}

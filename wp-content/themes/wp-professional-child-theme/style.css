@@ -1,0 +1,26 @@
+/*
+Theme Name:     wp-professional-child-theme
+Description:    Child theme of wp-professional
+Author:         jdogg5566
+Template:       wp-professional102
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+@import url("../wp-professional102/style.css");
+
+.outer-wrap {
+	background: #d15d36;
+}
+
+#content,  #sidebar-narrow, #sidebar {
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px, 10px, 10px, 10px;
+}
+
+.page_item {
+	font-family: cursive;
+	background: rgba(100,100,100,0.5);
+}

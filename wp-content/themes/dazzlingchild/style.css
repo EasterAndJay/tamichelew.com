@@ -1,0 +1,242 @@
+/*
+Theme Name:     dazzlingchild
+Description:    Child theme of responsive theme Dazzling
+Author:         jdogg5566
+Template:       dazzling
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+@import url("../dazzling/style.css");
+
+html, body{
+	height: 100%;
+}
+body {
+	background: url("texture4.png");
+	/*background: url(../../img/texture2.jpg) repeat center center scroll;*/
+	font-family: Raleway;
+	font-size: 15px;
+}
+
+img {
+	border-radius: 10px;
+}
+
+p {
+	color: #2C2A24;
+	font-family: Raleway;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: Raleway;
+}
+
+a { border-bottom: thin solid;
+    color: blue;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(128,0,128);
+}
+
+a:active {
+  color: rgb(192,0,0);
+}
+
+.navbar.navbar-default {
+	background: url("sage_header.jpg");
+	border-color: #929F86;
+}
+
+.navbar > .container .navbar-brand { /* Controls text of title of website */
+	color: #6e695c;	
+	font-family: Raleway;
+	/* Abril Fatface*/
+	font-weight: 100;
+	border-bottom: none;
+} /* average Computer screens */
+
+.nav.navbar-nav {
+	margin-top: 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	border-bottom: none;
+}
+
+.page-header {
+	margin-bottom: 0;
+	padding-bottom: 0px;
+}
+
+
+.entry-content {
+	margin-top: .5em;
+	font-family: Raleway;
+
+}
+
+
+@media (max-width: 1024px) and (min-width: 1000px) {
+	.nav.navbar-nav {
+    	font-size: 11.75px;
+	}
+}
+
+@media (max-width: 768px) {/* Tablets portrait */
+	.nav.navbar-nav {
+		margin-top: 30px;
+	}
+	.navbar > .container .navbar-brand {
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		margin-top: 20px;
+		padding-top: 0px;
+		line-height: 1em;
+	}
+
+	#secondary {
+		padding-top: 1px;
+	}
+
+	#tami {
+		max-width: 70%;
+		max-height: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.entry-title {
+		padding-top: .5em;
+	}
+}
+/* iPhone 6 in landscape mode */
+@media (max-width: 667px) and (max-height: 375px) {
+	.navbar-header {
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width: 375px) { /* iPhone 6 in portrait mode */
+
+	.navbar > .container .navbar-brand {
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		padding-top: 0px;
+		line-height: 1em;
+	}
+
+	.navbar > .container .navbar-brand {
+		line-height: 1.15em;
+		font-size: 20px;
+		padding-top: 20px;
+		padding-bottom: 70px;
+		margin-bottom: 0px;
+	}
+
+
+	.navbar-toggle {
+		margin-bottom: 10px;
+		margin-top: -70px;
+	}
+
+	#secondary {
+		margin-bottom: 50px;
+	}
+}
+
+
+@media (max-width: 320px) { /* iPhone 5,4 in portrait mode */
+	.navbar > .container .navbar-brand {
+		padding-bottom: 90px;
+		line-height: 1.15em;
+		padding-top: 10px;
+	}
+
+	.navbar-default .navbar-toggle {
+		/*margin-bottom: 10px;*/
+		margin-top: -10px;
+	}
+}
+
+/* iPhone 5 in landscape */
+@media (max-width: 568px) and (max-height: 320px) {
+	.navbar-header {
+		padding-bottom: 30px;
+	}
+
+	.navbar.navbar-default {
+		padding-bottom: 40px;
+	}
+}
+
+/* Controls links that are hovered over/ active */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	background-color: transparent;
+	border-radius: 3px;
+	color: white;
+	border-bottom: none;
+}
+
+#tami {
+	padding-top: 10px;
+	border-radius: 15px;
+}
+
+#secondary, #primary {
+	background-color: #edede0;
+	opacity: 1.0;
+	border-radius: 5px;
+	border-color: #5C755E;
+	/*border-color: #800000;*/
+	-webkit-box-shadow: -3px 0px 10px 0px #5C755E;
+	-moz-box-shadow:    -3px 0px 10px 0px #5C755E;
+	box-shadow:         -3px 0px 10px 0px #5C755E;
+}
+
+.entry-content { /* This is the main paragraph */
+	color: white;
+}
+
+.wp-caption{
+	background-color: #edede0;
+	border: none;
+}
+
+select {
+	color:black;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #DA4453;
+}
+ p>a{
+	font-weight: bold;
+}
+
+
+
+a:hover {
+	text-shadow: 0px 0px 1px black;
+}
+
+#colophon {
+		background:url("sage_header.jpg");
+		border-top: 1px solid white;
+}
+
+li {
+	font-family: Raleway;
+	color: #2C2A24;
+}
+
+
+.navbar-default .navbar-collapse {
+	border: none;
+}
+
